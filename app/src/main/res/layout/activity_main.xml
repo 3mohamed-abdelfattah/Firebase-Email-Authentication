@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="#32FFFFFF"
-            android:drawableStart="@drawable/ic_password"
+            android:drawableStart="@drawable/baseline_chevron_right_24"
             android:drawableLeft="@drawable/ic_password"
             android:drawablePadding="8dp"
             android:hint="@string/password"

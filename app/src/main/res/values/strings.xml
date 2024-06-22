@@ -8,4 +8,9 @@
     <string name="please_sign_in_to_continue">Please sign in to continue</string>
     <string name="welcome_back">Welcome Back!</string>
     <string name="sign_up">Don\'t have an account? Sign Up</string>
+    <string name="sign_up1">Sign Up</string>
+    <string name="number">Number</string>
+    <string name="name">Name</string>
+    <string name="welcome_to_our_app">Welcome to our App!</string>
+    <string name="please_sign_up_to_continue">Please sign up to continue...</string>
 </resources>
