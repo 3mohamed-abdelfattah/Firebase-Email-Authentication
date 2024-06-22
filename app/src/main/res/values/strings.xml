@@ -13,4 +13,5 @@
     <string name="name">Name</string>
     <string name="welcome_to_our_app">Welcome to our App!</string>
     <string name="please_sign_up_to_continue">Please sign up to continue...</string>
+    <string name="sign_in1">Sign In</string>
 </resources>
