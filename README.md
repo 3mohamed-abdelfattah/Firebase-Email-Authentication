@@ -1,6 +1,6 @@
 # Firebase Integration in Android
 
-This repository demonstrates how to integrate Firebase into an Android application, covering various features such as Authentication, Realtime Database, Firestore, and more.
+This repository demonstrates how to integrate Firebase into an Android application, covering various features such as Authentication
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -12,6 +12,8 @@ This repository demonstrates how to integrate Firebase into an Android applicati
 
 ## Introduction
 Firebase is a comprehensive app development platform that provides a suite of tools and services to help you develop high-quality apps. Firebase offers backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users, persist data, and manage your app's performance.
+
+![firebase11](https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/46414e57-6e1a-4b87-aa4e-a2ff9a758e49)
 
 ## Features
 - **Authentication**: Easily integrate authentication services using email/password, phone number, and popular federated identity providers like Google, Facebook, and Twitter.
@@ -36,15 +38,16 @@ For detailed instructions, refer to the official [Firebase documentation](https:
 ## Screenshots
 Here are some screenshots showcasing the implementation of Firebase in the app:
 
-![firebase11](https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/46414e57-6e1a-4b87-aa4e-a2ff9a758e49)
+<img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/b1016595-6168-4406-a279-f059a8a91334" alt="image" width="300"/>
 
-![image](https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/b1016595-6168-4406-a279-f059a8a91334)
+<img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/82151eaf-9582-4512-bb1e-c8ef1871b0e0" alt="image" width="300"/>
 
-![image](https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/82151eaf-9582-4512-bb1e-c8ef1871b0e0)
+<img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/13473406-2c5e-454a-921d-2ae050a9b3df" alt="image" width="300"/>
 
-![image](https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/13473406-2c5e-454a-921d-2ae050a9b3df)
+<img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/bd148174-bc71-4428-af9b-3c8b07655214" alt="image" width="300"/>
 
-![image](https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/bd148174-bc71-4428-af9b-3c8b07655214)
+<img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/c11cf8eb-8beb-4fb2-912c-066fa8108fa9" alt="image" width="300"/>
+
 
 ## Resources
 - [Firebase Documentation](https://firebase.google.com/docs)
