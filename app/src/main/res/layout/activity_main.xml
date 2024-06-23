@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -17,22 +16,24 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/home"
+            android:text="@string/main"
             android:textSize="25sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/signInButtonH"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
             android:text="@string/login"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/signUpButtonH"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sign"
+            android:layout_margin="20dp"
+            android:text="@string/register"
             android:textStyle="bold" />
 
     </LinearLayout>

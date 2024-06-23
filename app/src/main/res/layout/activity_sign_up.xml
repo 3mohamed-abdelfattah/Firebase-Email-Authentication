@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp">
+    tools:context=".Register">
 
 
     <!-- Background Image -->
@@ -83,7 +83,9 @@
             android:inputType="textPersonName"
             android:padding="12dp"
             android:textColor="@android:color/black"
-            android:textColorHint="#79000000" />
+            android:textColorHint="#79000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <!-- Email Field -->
         <EditText
@@ -98,7 +100,9 @@
             android:inputType="textEmailAddress"
             android:padding="12dp"
             android:textColor="@color/black"
-            android:textColorHint="#79000000" />
+            android:textColorHint="#79000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <!-- Password Field -->
         <EditText
@@ -113,7 +117,9 @@
             android:inputType="textPassword"
             android:padding="12dp"
             android:textColor="@android:color/black"
-            android:textColorHint="#79000000" />
+            android:textColorHint="#79000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <!-- Number Field -->
         <EditText
@@ -128,7 +134,9 @@
             android:inputType="number"
             android:padding="12dp"
             android:textColor="@android:color/black"
-            android:textColorHint="#79000000" />
+            android:textColorHint="#79000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
 
         <!-- Sign-In Button -->
@@ -138,8 +146,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:background="#32FFFFFF"
-            android:text="@string/sign_up1"
+            android:text="@string/register"
             android:textColor="#B2000000"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
     </LinearLayout>

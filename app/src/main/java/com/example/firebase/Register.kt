@@ -12,7 +12,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
 
-class SignUp : AppCompatActivity() {
+class Register : AppCompatActivity() {
     lateinit var binding: ActivitySignUpBinding
     private lateinit var auth: FirebaseAuth
 

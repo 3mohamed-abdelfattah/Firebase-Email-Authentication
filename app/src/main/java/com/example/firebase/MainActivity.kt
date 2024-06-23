@@ -29,12 +29,12 @@ class MainActivity : AppCompatActivity() {
         auth = Firebase.auth
 
         binding.signInButtonH.setOnClickListener {
-            val intent = Intent(this, SignIn::class.java)
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
 
         binding.signUpButtonH.setOnClickListener {
-            val intent = Intent(this, SignUp::class.java)
+            val intent = Intent(this, Register::class.java)
             startActivity(intent)
         }
 
@@ -48,9 +48,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, HomePage::class.java)
             startActivity(intent)
         }
-//        else {
-//            Intent(this, HomePage::class.java)
-//            startActivity(intent)
-//        }
     }
 }
