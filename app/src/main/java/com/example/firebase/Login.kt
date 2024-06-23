@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.firebase.databinding.ActivitySignInBinding
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthException
 import com.google.firebase.auth.auth
 
 class Login : AppCompatActivity() {
@@ -40,16 +41,18 @@ class Login : AppCompatActivity() {
                         Toast.makeText(
                             baseContext,
                             "Authentication successful.",
-                            Toast.LENGTH_SHORT,
+                            Toast.LENGTH_SHORT
                         ).show()
                         val intent = Intent(this, HomePage::class.java)
                         startActivity(intent)
                     } else {
                         // If sign in fails, display a message to the user.
+                        val errorCode =
+                            (task.exception as FirebaseAuthException).errorCode.replace("_", " ")
                         Toast.makeText(
                             baseContext,
-                            "Authentication failed.",
-                            Toast.LENGTH_SHORT,
+                            "Authentication failed.\n$errorCode",
+                            Toast.LENGTH_LONG,
                         ).show()
                     }
                 }
