@@ -25,14 +25,14 @@
             android:id="@+id/signInButtonH"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sign"
+            android:text="@string/login"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/signUpButtonH"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login"
+            android:text="@string/sign"
             android:textStyle="bold" />
 
     </LinearLayout>

@@ -70,7 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/subtitle">
 
-
+        <!-- Name Field -->
         <EditText
             android:id="@+id/name"
             android:layout_width="match_parent"
@@ -80,7 +80,7 @@
             android:drawableStart="@drawable/baseline_account_circle_24"
             android:drawablePadding="8dp"
             android:hint="@string/name"
-            android:inputType="textPassword"
+            android:inputType="textPersonName"
             android:padding="12dp"
             android:textColor="@android:color/black"
             android:textColorHint="#79000000" />
@@ -115,6 +115,7 @@
             android:textColor="@android:color/black"
             android:textColorHint="#79000000" />
 
+        <!-- Number Field -->
         <EditText
             android:id="@+id/number"
             android:layout_width="match_parent"
@@ -124,7 +125,7 @@
             android:drawableStart="@drawable/baseline_call_24"
             android:drawablePadding="8dp"
             android:hint="@string/number"
-            android:inputType="textPassword"
+            android:inputType="number"
             android:padding="12dp"
             android:textColor="@android:color/black"
             android:textColorHint="#79000000" />
