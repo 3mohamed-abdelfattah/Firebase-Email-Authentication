@@ -7,9 +7,13 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.firebase.databinding.ActivityMainBinding
 import com.example.firebase.databinding.ActivitySignInBinding
+import com.google.firebase.Firebase
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.auth
 
 class SignIn : AppCompatActivity() {
     lateinit var binding: ActivitySignInBinding
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivitySignInBinding.inflate(layoutInflater)
@@ -21,5 +25,8 @@ class SignIn : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        auth = Firebase.auth
+
     }
 }

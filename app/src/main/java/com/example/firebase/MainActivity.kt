@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        binding.signInButton.setOnClickListener {
+        binding.signInButtonH.setOnClickListener {
             val intent = Intent(this, SignIn::class.java)
             startActivity(intent)
         }
 
-        binding.signUpButton.setOnClickListener {
+        binding.signUpButtonH.setOnClickListener {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
