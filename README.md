@@ -46,7 +46,7 @@ Here are some screenshots showcasing the implementation of Firebase in the app:
 
 <img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/bd148174-bc71-4428-af9b-3c8b07655214" alt="image" width="300"/>
 
-<img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/c11cf8eb-8beb-4fb2-912c-066fa8108fa9" alt="image" width="300"/>
+<img src="https://github.com/3mohamed-abdelfattah/Firebase/assets/142848460/c11cf8eb-8beb-4fb2-912c-066fa8108fa9" alt="image"/>
 
 
 ## Resources
