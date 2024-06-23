@@ -8,7 +8,6 @@ This repository demonstrates how to integrate Firebase into an Android applicati
 - [Setup](#setup)
 - [Screenshots](#screenshots)
 - [Resources](#resources)
-- [License](#license)
 
 ## Introduction
 Firebase is a comprehensive app development platform that provides a suite of tools and services to help you develop high-quality apps. Firebase offers backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users, persist data, and manage your app's performance.
